@@ -7,10 +7,7 @@
 
 .navbar {
     padding: 20px;
-    background: url('https://static.wixstatic.com/media/11062b_fde4391568af44c8a1bb97521b4b71e8~mv2.jpeg/v1/fill/w_1899,h_275,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_fde4391568af44c8a1bb97521b4b71e8~mv2.jpeg') no-repeat;
-    background-blend-mode: overlay;
-    background-size: cover;
-    background-color: rgba(0, 0, 0, 0.408);
+   background: linear-gradient(90deg,rgb(248, 197, 102),orange);
     display: flex;
     flex-direction: column;
     align-items: center;
