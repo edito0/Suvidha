@@ -1,0 +1,275 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+    padding: 20px;
+    background: url('https://static.wixstatic.com/media/11062b_fde4391568af44c8a1bb97521b4b71e8~mv2.jpeg/v1/fill/w_1899,h_275,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/11062b_fde4391568af44c8a1bb97521b4b71e8~mv2.jpeg') no-repeat;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.408);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.upperbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+
+}
+
+.lowerbox {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    padding: 30px;
+    color: white;
+    margin: 20px;
+}
+
+.lowerbox h1 {
+    font-size: 35px;
+    width: 30%;
+}
+
+.lowerbox p {
+    margin-left: 50px;
+    font-size: 15px;
+    width: 70%;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.itemsContaiener ul {
+    display: flex;
+    list-style: none;
+}
+
+
+.itemsContaiener ul li {
+    display: block;
+    padding: 10px 50px;
+    color: white;
+    border-top: 3px solid rgba(232, 153, 175, 0);
+}
+
+.itemsContaiener ul li:hover {
+    border-top: 3px solid yellow;
+}
+
+.itemsContaiener ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+.humburger {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    display: none;
+    z-index: 1;
+    padding: 10px;
+}
+
+.humburger-line {
+    height: 3px;
+    width: 30px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.menu:nth-child(1) {
+    transform: rotate(45deg) translate(10px, 10px);
+}
+
+.menu:nth-child(2) {
+    transform: translateX(-30px);
+    opacity: 0;
+}
+
+.menu:nth-child(3) {
+    transform: rotate(-45deg) translate(2px, -1px);
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxcontainer {
+    width: 70%;
+}
+
+.boxcontainer h1 {
+    padding: 0px 20px;
+    font-size: 30px;
+}
+
+.box {
+    display: flex;
+}
+
+.image img {
+    width: 400px;
+}
+
+.box div {
+    padding: 20px;
+}
+
+.box-b {
+    display: flex;
+}
+
+.box-b {
+    display: flex;
+}
+
+.para-b {
+    margin: 30px;
+}
+
+.image-b img {
+    width: 50vw;
+}
+
+.para-b p,
+.para p {
+    color: gray;
+}
+
+.para-b h1 {
+    text-align: center;
+    font-size: 35px;
+    margin: 0px 20px 20px 20px;
+}
+
+
+
+footer {
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+@media only screen and (max-width:1200px) {
+    .humburger {
+        display: block;
+    }
+
+    .upperbox {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .lowerbox {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .lowerbox h1 {
+        font-size: 35px;
+        width: auto;
+    }
+
+    .lowerbox p {
+        font-size: 15px;
+        width: auto;
+    }
+
+    .itemsContaiener {
+        display: none;
+        position: absolute;
+        top: 0;
+        margin-right: 250%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding: 100px 50px;
+        background-color: white;
+        transition: all 0.9s ease;
+    }
+
+
+    .itemsContaiener ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemsContaiener ul li a {
+        color: black;
+    }
+
+
+    .itemsContaiener-menu {
+        position: absolute;
+        top: 0;
+        margin-right: 0%;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        padding: 100px 50px;
+        background-color: white;
+
+    }
+
+    .itemsContaiener-menu ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .itemsContaiener-menu ul li a {
+        color: black;
+    }
+
+    .boxcontainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .box,
+    .box-b {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image-b img {
+        width: 80vw;
+    }
+
+
+    .box div {
+        padding: 20px 0px;
+    }
+
+    .image img {
+        width: 300px;
+    }
+
+}
