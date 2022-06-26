@@ -5,7 +5,7 @@
 }
 
 .navbar {
-    background: linear-gradient(90deg, rgb(239, 199, 124), orange);
+    background: linear-gradient(-90deg, rgb(239, 199, 124), orange);
     display: flex;
     flex-direction: column;
     align-items: center;
