@@ -235,8 +235,9 @@ footer {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    border-top: 1px solid  rgb(184, 184, 184);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
 }
@@ -256,7 +257,7 @@ footer {
 }
 
 .footernav ul li a {
-    color: white;
+    color: rgb(0, 0, 0);
     display: block;
     margin: 3px;
 }
