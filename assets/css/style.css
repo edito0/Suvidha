@@ -284,8 +284,12 @@ footer {
     height: 150px;
     border-radius: 50%;
     box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.404);
+    transition: all 0.9s ease;
 }
 
+.box-c span:hover img{
+     transform: rotateY(360deg);
+}
 
 
 
