@@ -54,8 +54,8 @@ body{
 
 .humburger {
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 20px;
+    top: 40px;
     display: none;
     z-index: 1;
 }
@@ -244,13 +244,16 @@ footer p{
 
 
 .newscontainer{
-    display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
-    grid-gap: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     padding: 20px;
 }
 
 .news{
+    margin: 10px;
     height: auto;
     width: 300px  ;  
     display: flex;
@@ -340,11 +343,10 @@ footer p{
 @media only screen and (max-width:900px) {
 
     .objectives{
-        padding: 10px 20px;
+        padding: 10px 5px;
         width: 100%;
     }
     
-
 
     .offers {
         width: 350px;
