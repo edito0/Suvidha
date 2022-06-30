@@ -9,7 +9,7 @@ html {
 }
 
 body{
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(242, 242, 242);
 }
 
 /* -------- NAVBAR --------------- */
@@ -293,8 +293,11 @@ footer p{
     border-radius: 20px;
     color: white;
     width: 90px;
+    vertical-align: center;
     font-weight: 900;
     margin: 10px 0px 0px 0px;
+    display: inline;
+    text-align: center;
 }
 
 
